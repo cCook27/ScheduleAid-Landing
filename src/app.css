@@ -1,0 +1,112 @@
+.over-all {
+  height: 100vh;
+  background-color: #fff;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.flexy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find {
+  color: #499165;
+  font-weight: 600;
+}
+
+.offer {
+  background: #499165;
+  width: 100%;
+  height: 60vh;
+}
+
+.schedule-test {
+  background: #fff;
+  width: 100%;
+  height: 60vh;
+}
+
+.grouping {
+  background: #499165;
+  width: 100%;
+  height: 60vh;
+}
+
+.manage {
+  background: #fff;
+  width: 100%;
+  height: 60vh;
+}
+
+.about {
+  background: #499165;
+  width: 100%;
+  height: 50vh;
+}
+
+.alert-cont {
+  position: absolute;
+  top: 20px;
+  left: 55%;
+}
+
+.container-custom {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+/* Styles for iPads and tablets in portrait go here */
+@media only screen and (max-device-width: 768px) {
+    .offer {
+      height: 45vh;
+    }
+
+    .schedule-test {
+      height: 50vh;
+    }
+
+    .grouping {
+      height: 55vh;
+    }
+
+    .manage {
+      height: 50vh;
+    }
+
+    .about {
+      height: 50vh;
+    }
+}
+
+/* Styles for mobile phones go here */
+@media only screen and (max-device-width: 420px) {
+  .offer {
+    height: 30vh;
+  }
+
+  .schedule-test {
+    height: 35vh;
+  }
+
+  .grouping {
+    height: 35vh;
+  }
+
+  .manage {
+    height: 35vh;
+  }
+
+  .about {
+    height: 35vh;
+  }
+}

@@ -1,0 +1,24 @@
+.discover-cont {
+  color: #499165;
+  font-weight: 600;
+}
+
+.sidexside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.video-schedule {
+  border: 1px solid #499165;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+  0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+@media only screen and (max-device-width: 768px) {
+
+}

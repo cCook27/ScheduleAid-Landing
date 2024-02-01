@@ -1,0 +1,22 @@
+.reserve {
+  width: 300px;
+  font-weight: 600;
+  color: #fff;
+  /* background: linear-gradient(
+    109deg,
+    rgba(149, 218, 199, 0.77) 4.09%,
+    rgba(149, 218, 199, 0.13) 100%
+  );; */
+  background:  rgba(89, 219, 182, 0.77);
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid rgba(149, 218, 199, 0.77);
+}
+
+.reserve:hover{
+  background-color: rgba(149, 218, 199, 0.77);
+}
+
+input {
+  outline: 1px solid #499165
+}
