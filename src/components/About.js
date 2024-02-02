@@ -1,14 +1,19 @@
 import React from "react";
 
+import ActionText from "./action-text";
+
 import "../css/about.css";
 
-const About = () => {
+const About = ({ handleAlerts }) => {
   return (
     <div className="container-custom about-cont">
       <div className="d-flex flex-column">
         <h4>Why ScheduleAid? Because We've Been There!</h4>
-        <div className="d-flex">
-          <div className="sidexside flex-column d-flex align-items-center pt-2 ms-3">
+        <div className="d-flex sidexside-cont">
+          <div className="sidexside form-side">
+            <ActionText handleAlerts={ handleAlerts } />
+          </div>
+          <div className="sidexside note flex-column d-flex align-items-center pt-2 ms-3">
             <p>
               Working as a Home Health Professional is awesome, but let's be real - it can be as challenging as trying to solve a Rubik's Cube... blindfolded. I've seen it firsthand. My wife, a dedicated Speech Therapist, juggled her phone, planner, and an army of sticky notes (armed with a trusty pencil, of course) to make her schedule work. It was like watching a high-stakes Tetris game where the blocks were appointments and the game never ended.
             </p>
