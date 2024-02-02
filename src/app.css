@@ -25,19 +25,19 @@
 .schedule-test {
   background: #fff;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 }
 
 .grouping {
   background: #499165;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 }
 
 .manage {
   background: #fff;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 }
 
 .about {
@@ -68,23 +68,23 @@ li {
 /* Styles for iPads and tablets in portrait go here */
 @media only screen and (max-device-width: 768px) {
     .offer {
-      height: 45vh;
+      height: 40vh;
     }
 
     .schedule-test {
-      height: 50vh;
+      height: 40vh;
     }
 
     .grouping {
-      height: 55vh;
+      height: 40vh;
     }
 
     .manage {
-      height: 50vh;
+      height: 40vh;
     }
 
     .about {
-      height: 55vh;
+      height: 45vh;
     }
 }
 
