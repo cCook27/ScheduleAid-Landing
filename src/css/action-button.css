@@ -19,6 +19,7 @@
 
 .reserve:disabled {
   cursor: default;
+  background: rgba(89, 219, 182, 0.77);
 }
 
 input {
