@@ -32,7 +32,7 @@ const App = () => {
       {okAlert ?
         <div className="alert-cont">
           <div className="alert alert-info alert-dismissible fade show" role="alert">
-            <strong>Success!</strong> You're awesome! We'll keep you updated on the launch. Thanks!
+            <strong>Success!</strong> You're awesome! We'll keep you updated on the launch. You won't need to submit your email, again. Thanks!
             <button onClick={handleClose} type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
         </div>
